@@ -11,6 +11,7 @@ public class Main {
             } catch (MyArraySizeException e) {
                 System.out.println("Размер массива превышен!");
             }
+
         }
         catch (MyArrayDataException e) {
             System.out.println("Неправильное значение массива!");
